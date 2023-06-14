@@ -26,6 +26,9 @@ To run the Dad Jokes Central web app locally, follow these steps:
 3. Start the development server: `npm run dev`
 4. Open your browser and navigate to `http://localhost:3000`
 
+## Screenshots
+<img width="1187" alt="image" src="https://github.com/sagarneeli/dad-jokes-central/assets/5379043/fb169169-e48d-462a-95d5-664719147dd8">
+
 ## Contributing
 
 Contributions are welcome! If you have any ideas, improvements, or bug fixes, please submit a pull request. Ensure that your code follows the established coding conventions and passes all linting checks.
