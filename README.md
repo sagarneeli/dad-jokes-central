@@ -1,47 +1,68 @@
-# Dad Jokes Central
+# Dad Jokes Central 😂
 
-Welcome to Dad Jokes Central, a web app that displays dad jokes and allows users to interact with different features.
+Welcome to the modernized **Dad Jokes Central**, a fun and interactive web application for all your cheesy humor needs. Now featuring a sleek glassmorphism UI, dark mode, and social sharing!
 
-## Features
+![Dad Jokes Central Modern UI](public/screenshot.png)
 
-1. Random Joke Generator: Display a random dad joke each time the page loads or when the "Tell me another one!" button is clicked.
-2. Joke Categories: Browse and select joke categories to fetch jokes specific to that category.
-3. Joke Search: Search for jokes based on a specific keyword or phrase.
-4. Accessibility: Improved accessibility with ARIA roles, labels, and attributes for enhanced usability.
+## Features ✨
 
-## Tech Stack
+-   **Random Joke Generator**: Instantly fetch a fresh dad joke with one click.
+-   **Curated Categories**: Browse jokes by topic—**Computers**, **Dogs**, **Cats**, **Food**, **Work**, and **Dad**.
+-   **Smart Search**: Find specific jokes by keyword.
+-   **Interactive Actions**:
+    -   **Copy**: One-click copy with celebratory confetti 🎉
+    -   **Share**: Direct sharing to **Twitter** and **WhatsApp**.
+    -   **React**: Upvote/Downvote/Meh buttons.
+-   **Modern UX**:
+    -   **Dark Mode**: Fully supported dark theme for late-night laughs 🌙
+    -   **Animations**: Smooth entry transitions and loading skeletons.
+    -   **Responsive**: Looks great on mobile, tablet, and desktop.
 
-- TypeScript
-- Vite
-- React
-- Tailwind CSS
-- Framer Motion
+## Tech Stack 🛠️
 
-## Getting Started
+-   **React** (v18)
+-   **TypeScript**
+-   **Vite** - Fast build tool
+-   **Tailwind CSS** - Styling & Design System
+-   **Framer Motion** - Animations
+-   **Lucide React** - Icons
+-   **Canvas Confetti** - Fun visual effects
 
-To run the Dad Jokes Central web app locally, follow these steps:
+## Getting Started 🚀
 
-1. Clone the repository: `git clone <repository-url>`
-2. Install the dependencies: `npm install`
-3. Start the development server: `npm run dev`
-4. Open your browser and navigate to `http://localhost:3000`
+To run the app locally:
 
-## Screenshots
-<img width="1187" alt="image" src="https://github.com/sagarneeli/dad-jokes-central/assets/5379043/fb169169-e48d-462a-95d5-664719147dd8">
+1.  **Clone the repository**:
+    ```bash
+    git clone https://github.com/sagarneeli/dad-jokes-central.git
+    cd dad-jokes-central
+    ```
 
-## Contributing
+2.  **Install dependencies**:
+    ```bash
+    npm install
+    ```
 
-Contributions are welcome! If you have any ideas, improvements, or bug fixes, please submit a pull request. Ensure that your code follows the established coding conventions and passes all linting checks.
+3.  **Start the development server**:
+    ```bash
+    npm run dev
+    ```
 
-## Issues
+4.  **Open your browser**:
+    Navigate to `http://localhost:5173`
 
-If you encounter any issues or bugs, please create a new issue on the GitHub repository. Provide detailed information about the problem, including steps to reproduce it, expected behavior, and any relevant error messages.
+## Project Structure 📂
 
-## License
+-   `src/components`: UI components (`JokeDisplay`, `Controls`, `Actions`)
+-   `src/components/ui`: Reusable design system (`Button`, `Card`)
+-   `src/hooks`: Custom hooks (`useJoke`, `useDarkMode`)
+-   `src/api.ts`: API integration logic
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+## License 📄
 
-## Acknowledgements
+This project is licensed under the MIT License.
 
-- This project was inspired by the love for dad jokes and the desire to create a fun and interactive web app.
-- Dad Jokes Central uses the [icanhazdadjoke](https://icanhazdadjoke.com/) API to fetch the jokes.
+## Acknowledgements 🙏
+
+-   Jokes provided by the [icanhazdadjoke](https://icanhazdadjoke.com/) API.
+-   Inspired by the need for more groans in the world.
