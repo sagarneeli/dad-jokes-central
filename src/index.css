@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-.bg-image {
-  background-image: url('/src/assets/background.jpg');
-  background-size: cover;
-  background-position: center;
+@layer base {
+  body {
+    @apply font-sans text-gray-900 dark:text-gray-100 bg-gray-50 dark:bg-dark-bg transition-colors duration-300;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+  }
 }
